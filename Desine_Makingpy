@@ -1,0 +1,7 @@
+import cv2
+import mediapipe as mp
+
+cap = cv2.VideoCepture(0)
+holistic = mpHolistic.Holistic()
+mpDraw = mp.solution.drawing_utils
+drawing_space = mpDraw.Drawingspac(thickness=1,circle_redius=1)
